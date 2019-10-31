@@ -1,0 +1,71 @@
+main {
+	width:100%;
+	height:900px;
+	}
+footer {
+    background-color:#BCCE98
+    
+	}
+article,  {
+	height: 90%;
+	}
+article {
+	background-color:#F7FDEB;
+    width:100%;
+    height: 900px;
+	}
+nav {
+	background-color:#DAE9BC;
+    width: 50px;
+    
+    height: 30px;
+    width: 100%;
+    }
+ul  {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    }
+ul li {
+    display: inline;
+    float: left;
+    padding: 14px 16px;
+}    
+
+.rightSide{
+    float:right;
+}
+
+.googleLogo{
+    position: relative;
+    width:800px;
+    height:600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.searchBar{
+    position: absolute;
+    right: 37%;
+    top: 50%;
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    width: 500px;
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.searchButtonPosition{
+    position: absolute;
+    left: 40%;
+    top: 57%;
+}
+
+.searchButton{
+    width:150px;
+    height:40px;
+}

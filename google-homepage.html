@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML Layouts</title>
+<link rel="stylesheet" href="google-homepage.css">
+</head>
+<body>
+	<main>
+	  <header>
+        <nav>
+            <ul>
+                <li><a href="default.asp">About</a></li>
+                <li><a href="news.asp">Store</a></li>
+                <li class="rightSide"><a href="contact.asp">Gmail</a></li>
+                <li class="rightSide"><a href="about.asp">Images</a></li>
+            </ul>
+        </nav>
+      </header>
+	  
+	  <article>
+        <img class="googleLogo" src="/home/alex/odin_on_rails/google-homepage/google2.0.0.webp" alt="Google Logo">
+        <form>
+            <input class="searchBar" type="search" name="googlesearch">
+        </form>
+        <ul class="searchButtonPosition">
+            <li><input type="button" class="searchButton" onclick="alert('Hello World!')" value="Google Search"></li>
+            <li><input type="button" class="searchButton" onclick="alert('Hello World!')" value="I'm Feeling Lucky"></li>
+        </ul>    
+      </article>
+	  <footer>
+        <ul>
+            <li><a href="default.asp">Advertising</a></li>
+            <li><a href="news.asp">Buisness</a></li>
+            <li><a href="contact.asp">How Search works</a></li>
+            <li class="rightSide"><a href="about.asp">Privacy</a></li>
+            <li class="rightSide"><a href="contact.asp">Terms</a></li>
+            <li class="rightSide"><a href="about.asp">Settings</a></li>
+        </ul>
+      </footer>
+	</main>
+</body>
+</html>
